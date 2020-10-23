@@ -1,0 +1,331 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Lampe Chevet Mur",
+    "category": 5,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Lampe Chevet Mur",
+        "service": "Lightbulb",
+        "topic": {
+          "setOn": "cmnd/tasmota-chevet-mur/Power",
+          "statusOn": "stat/tasmota-chevet-mur/RESULT",
+          "setBrightness": "",
+          "statusBrightness": "",
+          "setHue": "",
+          "statusHue": "",
+          "setSaturation": "",
+          "statusSaturation": "",
+          "setColorTemperature": "",
+          "statusColorTemperature": "",
+          "statusRGB": "",
+          "setRGB": ""
+        },
+        "json": {
+          "statusOn": "POWER",
+          "statusBrightness": "",
+          "statusHue": "",
+          "statusSaturation": "",
+          "statusColorTemperature": "",
+          "statusRGB": ""
+        },
+        "payload": {
+          "onTrue": "ON",
+          "onFalse": "OFF",
+          "brightnessFactor": null,
+          "hueFactor": null,
+          "saturationFactor": null
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "payload": {},
+    "config": {},
+    "manufacturer": "Sonoff",
+    "model": "Tasmota"
+  },
+  "2": {
+    "id": "2",
+    "name": "Lampe Chevet Fenêtre",
+    "category": 5,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Lampe Chevet Fenêtre",
+        "service": "Lightbulb",
+        "topic": {
+          "setOn": "cmnd/tasmota-chevet-fenetre/Power",
+          "statusOn": "stat/tasmota-chevet-fenetre/RESULT",
+          "setBrightness": "",
+          "statusBrightness": "",
+          "setHue": "",
+          "statusHue": "",
+          "setSaturation": "",
+          "statusSaturation": "",
+          "setColorTemperature": "",
+          "statusColorTemperature": "",
+          "statusRGB": "",
+          "setRGB": ""
+        },
+        "json": {
+          "statusOn": "POWER",
+          "statusBrightness": "",
+          "statusHue": "",
+          "statusSaturation": "",
+          "statusColorTemperature": "",
+          "statusRGB": ""
+        },
+        "payload": {
+          "onTrue": "ON",
+          "onFalse": "OFF",
+          "brightnessFactor": null,
+          "hueFactor": null,
+          "saturationFactor": null
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "payload": {},
+    "config": {},
+    "manufacturer": "Sonoff",
+    "model": "Tasmota"
+  },
+  "3": {
+    "id": "2",
+    "name": "Lampe Vinyle",
+    "category": 5,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Lampe Vinyle",
+        "service": "Lightbulb",
+        "topic": {
+          "setOn": "cmnd/tasmota-lampe-vinyle/Power",
+          "statusOn": "stat/tasmota-lampe-vinyle/RESULT",
+          "setBrightness": "",
+          "statusBrightness": "",
+          "setHue": "",
+          "statusHue": "",
+          "setSaturation": "",
+          "statusSaturation": "",
+          "setColorTemperature": "",
+          "statusColorTemperature": "",
+          "statusRGB": "",
+          "setRGB": ""
+        },
+        "json": {
+          "statusOn": "POWER",
+          "statusBrightness": "",
+          "statusHue": "",
+          "statusSaturation": "",
+          "statusColorTemperature": "",
+          "statusRGB": ""
+        },
+        "payload": {
+          "onTrue": "ON",
+          "onFalse": "OFF",
+          "brightnessFactor": null,
+          "hueFactor": null,
+          "saturationFactor": null
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "payload": {},
+    "config": {},
+    "manufacturer": "Sonoff",
+    "model": "Tasmota"
+  },
+  "4": {
+    "id": "2",
+    "name": "Lampe Canapé",
+    "category": 5,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Lampe Canapé",
+        "service": "Lightbulb",
+        "topic": {
+          "setOn": "cmnd/tasmota-canape/Power",
+          "statusOn": "stat/tasmota-canape/RESULT",
+          "setBrightness": "",
+          "statusBrightness": "",
+          "setHue": "",
+          "statusHue": "",
+          "setSaturation": "",
+          "statusSaturation": "",
+          "setColorTemperature": "",
+          "statusColorTemperature": "",
+          "statusRGB": "",
+          "setRGB": ""
+        },
+        "json": {
+          "statusOn": "POWER",
+          "statusBrightness": "",
+          "statusHue": "",
+          "statusSaturation": "",
+          "statusColorTemperature": "",
+          "statusRGB": ""
+        },
+        "payload": {
+          "onTrue": "ON",
+          "onFalse": "OFF",
+          "brightnessFactor": null,
+          "hueFactor": null,
+          "saturationFactor": null
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "payload": {},
+    "config": {},
+    "manufacturer": "Sonoff",
+    "model": "Tasmota"
+  },
+  "5": {
+    "id": "2",
+    "name": "Guirlande",
+    "category": 5,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Guirlande",
+        "service": "Lightbulb",
+        "topic": {
+          "setOn": "cmnd/tasmota-guirlande/Power",
+          "statusOn": "stat/tasmota-guirlande/RESULT",
+          "setBrightness": "",
+          "statusBrightness": "",
+          "setHue": "",
+          "statusHue": "",
+          "setSaturation": "",
+          "statusSaturation": "",
+          "setColorTemperature": "",
+          "statusColorTemperature": "",
+          "statusRGB": "",
+          "setRGB": ""
+        },
+        "json": {
+          "statusOn": "POWER",
+          "statusBrightness": "",
+          "statusHue": "",
+          "statusSaturation": "",
+          "statusColorTemperature": "",
+          "statusRGB": ""
+        },
+        "payload": {
+          "onTrue": "ON",
+          "onFalse": "OFF",
+          "brightnessFactor": null,
+          "hueFactor": null,
+          "saturationFactor": null
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "payload": {},
+    "config": {},
+    "manufacturer": "Sonoff",
+    "model": "Tasmota"
+  },
+  "6": {
+    "id": "2",
+    "name": "Lampe établi",
+    "category": 5,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Lampe établi",
+        "service": "Lightbulb",
+        "topic": {
+          "setOn": "cmnd/tasmota-etabli/Power",
+          "statusOn": "stat/tasmota-etabli/RESULT",
+          "setBrightness": "",
+          "statusBrightness": "",
+          "setHue": "",
+          "statusHue": "",
+          "setSaturation": "",
+          "statusSaturation": "",
+          "setColorTemperature": "",
+          "statusColorTemperature": "",
+          "statusRGB": "",
+          "setRGB": ""
+        },
+        "json": {
+          "statusOn": "POWER",
+          "statusBrightness": "",
+          "statusHue": "",
+          "statusSaturation": "",
+          "statusColorTemperature": "",
+          "statusRGB": ""
+        },
+        "payload": {
+          "onTrue": "ON",
+          "onFalse": "OFF",
+          "brightnessFactor": null,
+          "hueFactor": null,
+          "saturationFactor": null
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "payload": {},
+    "config": {},
+    "manufacturer": "Sonoff",
+    "model": "Tasmota"
+  },
+  "7": {
+    "id": "2",
+    "name": "Lampe bureau",
+    "category": 5,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Lampe bureau",
+        "service": "Lightbulb",
+        "topic": {
+          "setOn": "yeelight/light/lampe-bureau/status/set",
+          "statusOn": "yeelight/light/lampe-bureau/status/set",
+          "setBrightness": "",
+          "statusBrightness": "",
+          "setHue": "",
+          "statusHue": "",
+          "setSaturation": "",
+          "statusSaturation": "",
+          "setColorTemperature": "",
+          "statusColorTemperature": "",
+          "statusRGB": "",
+          "setRGB": ""
+        },
+        "json": {
+          "statusOn": "",
+          "statusBrightness": "",
+          "statusHue": "",
+          "statusSaturation": "",
+          "statusColorTemperature": "",
+          "statusRGB": ""
+        },
+        "payload": {
+          "onTrue": "on",
+          "onFalse": "off",
+          "brightnessFactor": null,
+          "hueFactor": null,
+          "saturationFactor": null
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "payload": {},
+    "config": {},
+    "manufacturer": "Yeelight",
+    "model": "Yeelight"
+  }
+}
