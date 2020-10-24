@@ -292,7 +292,7 @@
         "service": "Lightbulb",
         "topic": {
           "setOn": "yeelight/light/lampe-bureau/status/set",
-          "statusOn": "yeelight/light/lampe-bureau/status/set",
+          "statusOn": "yeelight/light/lampe-bureau/status",
           "setBrightness": "",
           "statusBrightness": "",
           "setHue": "",
