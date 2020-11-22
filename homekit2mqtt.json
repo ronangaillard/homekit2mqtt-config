@@ -364,5 +364,32 @@
     ],
     "manufacturer": "Aquara",
     "model": "Door sensor"
+  },
+  "9": {
+    "id": "9",
+    "name": "Ampli Rega",
+    "category": 7,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "Ampli Rega",
+        "service": "Outlet",
+        "topic": {
+          "setOn": "cmnd/tasmota-ampli-rega/Power",
+          "statusOn": "stat/tasmota-rega/RESULT",
+          "statusOutletInUse": ""
+        },
+        "json": {
+          "statusOn": "POWER",
+          "statusOutletInUse": ""
+        },
+        "payload": {
+          "onFalse": "OFF",
+          "onTrue": "ON"
+        },
+        "config": {},
+        "props": {}
+      }
+    ]
   }
 }
