@@ -94,7 +94,7 @@
     "model": "Tasmota"
   },
   "3": {
-    "id": "2",
+    "id": "3",
     "name": "Lampe Vinyle",
     "category": 5,
     "payloadIdentify": "",
@@ -141,7 +141,7 @@
     "model": "Tasmota"
   },
   "4": {
-    "id": "2",
+    "id": "4",
     "name": "Lampe Canapé",
     "category": 5,
     "payloadIdentify": "",
@@ -188,7 +188,7 @@
     "model": "Tasmota"
   },
   "5": {
-    "id": "2",
+    "id": "5",
     "name": "Guirlande",
     "category": 5,
     "payloadIdentify": "",
@@ -235,7 +235,7 @@
     "model": "Tasmota"
   },
   "6": {
-    "id": "2",
+    "id": "6",
     "name": "Lampe établi",
     "category": 5,
     "payloadIdentify": "",
@@ -282,7 +282,7 @@
     "model": "Tasmota"
   },
   "7": {
-    "id": "2",
+    "id": "7",
     "name": "Lampe bureau",
     "category": 5,
     "payloadIdentify": "",
@@ -294,7 +294,7 @@
           "setOn": "yeelight/light/lampe-bureau/status/set",
           "statusOn": "yeelight/light/lampe-bureau/status",
           "setBrightness": "",
-          "statusBrightness": "",
+          "statusBrightness": "yeelight/light/lampe-bureau/bright",
           "setHue": "",
           "statusHue": "",
           "setSaturation": "",
@@ -302,7 +302,7 @@
           "setColorTemperature": "",
           "statusColorTemperature": "",
           "statusRGB": "",
-          "setRGB": ""
+          "setRGB": "yeelight/light/lampe-bureau/rgb"
         },
         "json": {
           "statusOn": "",
@@ -327,5 +327,42 @@
     "config": {},
     "manufacturer": "Yeelight",
     "model": "Yeelight"
+  },
+  "8": {
+    "id": "8",
+    "name": "Fenêtre",
+    "category": 10,
+    "payloadIdentify": "",
+    "services": [
+      {
+        "name": "fenetre",
+        "service": "ContactSensor",
+        "topic": {
+          "statusContactSensorState": "xiaomi/status/magnet/158d0002b56b15",
+          "statusLowBattery": "",
+          "statusTampered": "",
+          "statusActive": "",
+          "statusFault": ""
+        },
+        "json": {
+          "statusContactSensorState": "val",
+          "statusLowBattery": "",
+          "statusTampered": "",
+          "statusActive": "",
+          "statusFault": ""
+        },
+        "payload": {
+          "onContactDetected": "closed",
+          "invertLowBattery": false,
+          "invertTampered": false,
+          "invertActive": false,
+          "invertFault": false
+        },
+        "config": {},
+        "props": {}
+      }
+    ],
+    "manufacturer": "Aquara",
+    "model": "Door sensor"
   }
 }
